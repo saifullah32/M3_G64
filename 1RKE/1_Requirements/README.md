@@ -45,6 +45,7 @@
 | LLR6 | i.e. GREEN➡ORANGE➡RED➡BLUE➡GREEN |
 
 | ID | Low level requirements for H4 |
+|:------:|:------:|
 | LLR7 | If the User Button is pressed THREE times, ON All LED's in ANTI-CLOCKWISE manner |
 | LLR8 | i.e. GREEN➡BLUE➡RED➡ORANGE➡GREEN |
 
