@@ -18,7 +18,7 @@
 ---
 ## Requirements
 
-High Level Requirements
+### High Level Requirements
 
 | ID | High Level Requirements |
 |:------:|:------|
@@ -28,4 +28,9 @@ High Level Requirements
 | HLR4 | It shall approach the light |
 
 ### Low Level Requirements
+
+| ID | Low level requirements for H1 |
+|:------:|:-------:|
+| LLR1 | If the User Button is pressed ONCE, ON LED ORANGE, GREEN along with other LED's |
+| LLR2 | If the User Button is pressed ONCE, ON LED RED, BLUE along with other LED's |
 
