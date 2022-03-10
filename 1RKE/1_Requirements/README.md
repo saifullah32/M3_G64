@@ -34,3 +34,17 @@
 | LLR1 | If the User Button is pressed ONCE, ON LED ORANGE, GREEN along with other LED's |
 | LLR2 | If the User Button is pressed ONCE, ON LED RED, BLUE along with other LED's |
 
+| ID | Low level requirements for H2 |
+|:------:|:-----:|
+| LLR3 | If the User Button is pressed TWICE, OFF LED ORANGE, GREEN along with other LED's |
+| LLR4 | If the User Button is pressed TWICE, OFF LED RED, BLUE along with other LED's |
+
+| ID | Low level requirements for H3 |
+|:-----:|:------:|
+| LLR5 | If the User Button is pressed THREE times, ON All LED's in CLOCKWISE manner |
+| LLR6 | i.e. GREEN➡ORANGE➡RED➡BLUE➡GREEN |
+
+| ID | Low level requirements for H4 |
+| LLR7 | If the User Button is pressed THREE times, ON All LED's in ANTI-CLOCKWISE manner |
+| LLR8 | i.e. GREEN➡BLUE➡RED➡ORANGE➡GREEN |
+
