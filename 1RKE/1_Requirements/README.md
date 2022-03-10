@@ -18,5 +18,14 @@
 ---
 ## Requirements
 
+High Level Requirements
+
+| ID | High Level Requirements |
+|:------:|:------|
+| HLR1 | It shall Lock the car |
+| HLR2 | It shall UNLOCK THE CAR |
+| HLR3 | It shall ACTIVATE / DEACTIVATE THE ALARM |
+| HLR4 | It shall approach the light |
+
 
 
