@@ -30,6 +30,7 @@ In this it allows you to access your car or building without using a traditional
 | HLR3 | It shall ACTIVATE / DEACTIVATE THE ALARM |
 | HLR4 | It shall approach the light |
 
+
 ### Low Level Requirements
 
 | ID | Low level requirements for H1 |
@@ -51,4 +52,6 @@ In this it allows you to access your car or building without using a traditional
 |:------:|:------:|
 | LLR7 | If the User Button is pressed THREE times, ON All LED's in ANTI-CLOCKWISE manner |
 | LLR8 | i.e. GREEN➡BLUE➡RED➡ORANGE➡GREEN |
+## S.W.O.T ANALYSIS
+![157930903-35490026-63bb-4796-9aef-533f62e15c6a![157925192-9b056231-0340-4be1-a50c-c13a4daccc2f](https://user-images.githubusercontent.com/98878562/157931208-7cb05f95-bb60-461d-9bed-6cd8df8e094a.jpg)
 
