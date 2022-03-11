@@ -1,31 +1,23 @@
-ENTRY(Reset_Handler)
- 
-MEMORY
-{
-    FLASH(rx):ORIGIN =0x08000000,LENGTH =1024k
-    SRAM(rwx):ORIGIN =0x20000000,LENGTH =128k
-}
-SECTIONS
-{
-    .text :
-    {   /* Here starting it's not necessary to mention because .isr_vector is the start itself */
-        *(.isr_vector)
-        *(.text)
-        *(.rodata)
-        _etext = .; /*This is used to tell its end of text (locator.;) */
-    }> FLASH /*Both source and Drain are FLASH*/
-    _la_data = LOADADDR(.data); /* load data */
+C=arm-none-eabi-gcc
+CFLAGS=-c -mcpu=cortex-m4 -mthumb -std=gnu11 -Wall -O0
+LDFLAGS= -nostdlib -T linker.ld 
 
-    .data :
-    {   _sdata = .; /* start of data */
-        *(.data)
-        _edata = .; /* end of data */
-    }> SRAM AT> FLASH /*">(vma) AT> (lma)"vma is like where to load (drain) lma is like from where to load (source)*/
+all:clean main.o G64_project.o startup.o final.elf qemu
 
-    .bss :
-    {
-        _sbss = .; /* start of bss */
-        *(.bss)
-        _ebss = .; /* end of bss */
-    }> SRAM /*Both source and Drain are FLASH*/
-}
+main.o:main.c
+	$(CC) $(CFLAGS) main.c -o main.o
+	
+G64_project.o:G64_project.c
+	$(CC) $(CFLAGS) G64_project.c -o G64_project.o
+
+interrupts.o:startup.c
+	$(CC) $(CFLAGS) startup.c -o startup.o
+
+final.elf: main.o G64_project.o startup.o
+	$(CC) $(LDFLAGS) main.o G64_project.o startup.o -o final.elf
+
+qemu:
+	qemu-system-gnuarmeclipse.exe -M STM32F4-Discovery -mcu STM32F407VG -kernel final.elf
+
+clean:
+	rm -rf *.o *.elf
