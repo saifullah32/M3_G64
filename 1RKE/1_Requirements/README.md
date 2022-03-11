@@ -1,7 +1,10 @@
-# RKE 
----
+# RKE (Remote Keyless Entry)
+## Introduction
+Remote keyless Entry system is abbreviated as RKE. It's a proximity sensor that detects when a key is within a particular range.
+Modern automobiles have a lot of them. When you have an RKS system, it is quite easy to get into your automobile.
+You do not need to remove your key; simply stroll to your car while holding the key in your pocket and unlock the door.
+In this it allows you to access your car or building without using a traditional mechanical key. "Remote keyless system" is sometimes known as "keyless entry" or "remote central locking" (RKS). It's a key that can be activated by a portable device or by being in close proximity to it. It functions similarly to a typical car key, but without the requirement for physical contact. When the remote is within range of the car, pressing a button on the remote will, lock and unlock your car or your system.
 ## Description
-
 * Remote keyless entry (RKE) system is designed to remotely lock or unlock access to automobiles.
 * RKE operates by broadcasting radio waves on a particular frequency unidirectionally,RKE systems implement encryption algorithms to prevent car thieves from intercepting and spoofing the telegrams.
 ---
