@@ -1,24 +1,23 @@
-CC =arm-none-eabi-gcc
+CC=arm-none-eabi-gcc
+CFLAGS=-c -mcpu=cortex-m4 -mthumb -std=gnu11 -Wall -O0
+LDFLAGS= -nostdlib -T linker.ld 
 
-MACH=cortex-m4
-
-CFLAGS =-c -mcpu=$(MACH) -mthumb -std=gnu11 -Wall -O0 
-LDFLAGS= -nostdlib -T stm32_ls.ld
-
-all:clean main.o own_drivers_and_func.o stm32_startup.o finalled.elf run
+all:clean main.o G64_project.o startup.o final.elf qemu
 
 main.o:main.c
-	$(CC) $(CFLAGS) -o $@ $^
+	$(CC) $(CFLAGS) main.c -o main.o
+	
+G64_project.o:G64_project.c
+	$(CC) $(CFLAGS) G64_project.c -o G64_project.o
 
-own_drivers_and_func.o:own_drivers_and_func.c
-	$(CC) $(CFLAGS) -o $@ $^
+interrupts.o:startup.c
+	$(CC) $(CFLAGS) startup.c -o startup.o
 
-stm32_startup.o:stm32_startup.c
-	$(CC) $(CFLAGS) -o $@ $^
+final.elf: main.o G64_project.o startup.o
+	$(CC) $(LDFLAGS) main.o G64_project.o startup.o -o final.elf
 
-finalled.elf:main.o own_drivers_and_func.o stm32_startup.o
-	$(CC) $(LDFLAGS) -o $@ $^
-run:
-	qemu-system-gnuarmeclipse.exe -M STM32F4-Discovery -mcu STM32F407VG -kernel finalled.elf
+qemu:
+	qemu-system-gnuarmeclipse.exe -M STM32F4-Discovery -mcu STM32F407VG -kernel final.elf
+
 clean:
-	-rm -rf *.o *.elf
+	rm -rf *.o *.elf
