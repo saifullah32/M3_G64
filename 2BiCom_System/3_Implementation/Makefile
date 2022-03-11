@@ -7,17 +7,7 @@ LDFLAGS= -nostdlib -T stm32_ls.ld
 
 all:clean main.o own_drivers_and_func.o stm32_startup.o finalled.elf run
 
-#-specs=rdimon.specs -lc -lrdimon  these are for printing
 
-#main.o:main.c
-#	$(CC) $(CFLAGS) main.c -o main.o
-
-#or
-
-#main.o:main.c
-#	$(CC) $(CFLAGS) $@ -o $^
-
-#or
 
 main.o:main.c
 	$(CC) $(CFLAGS) -o $@ $^

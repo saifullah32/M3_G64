@@ -5,12 +5,12 @@
 #include "own_drivers_and_func.h"
 #include <stdio.h>
 
-static void window_status(void);			   // here this function will Turn on all the LED's at once
-static void alarm_status(void);		   // here this function will Turn off all the LED's at once
-static void door_status(void);  // here this function will on and off LED's with a certain delay (in anti-clockwise)
-static void car_battery_info(void); // here this function will on and off LED's with a certain delay (in clockwise)
+static void window_status(void);			   
+static void alarm_status(void);		  
+static void door_status(void);  
+static void car_battery_info(void);
 
-static void window_status(void) // This function is done by Mantra G with help of Nyalam Praveenraj
+static void window_status(void)
 {
 	led_on(LED_ORANGE);
 	led_on(LED_GREEN);
@@ -19,14 +19,14 @@ static void window_status(void) // This function is done by Mantra G with help o
 }
 
 
-static void alarm_status(void) // This function is done by Mantra G with help of Nyalam Praveenraj
+static void alarm_status(void)
 {
 	led_off(LED_ORANGE);
 	led_off(LED_GREEN);
 	led_off(LED_RED);
 	led_off(LED_BLUE);
 }
-static void car_battery_info(void) // This function is done by bashaboina Naresh with help of Nyalam Praveenraj
+static void car_battery_info(void) 
 {
 
 	led_on(LED_GREEN);
@@ -46,7 +46,7 @@ static void car_battery_info(void) // This function is done by bashaboina Naresh
 	led_off(LED_GREEN);
 }
 
-static void door_status(void) // This function is done by Varun S with help of Nyalam Praveenraj
+static void door_status(void) 
 {
 
 	led_on(LED_GREEN);
@@ -68,7 +68,7 @@ static void door_status(void) // This function is done by Varun S with help of N
 
 
 int main(void)
-{// main function is done by bashaboina Naresh, Varun S, Mantra G with help of Nyalam Praveenraj
+{
 
 	led_init_all();
 	button_init();

@@ -108,10 +108,9 @@ void HASH_RNG_Handler(void) __attribute__ ((weak, alias("Default_Handler")));
 void FPU_Handler(void) __attribute__ ((weak, alias("Default_Handler")));
     
 
- uint32_t vectors[] __attribute__((section (".isr_vector"))) = { //here  "__attribute__((section(".isr_vector")))" for more information goto gcc.gnu common function attributes (6.33.1)
-     // under "sections"
-    // under "alias ", here if we mention this we do not have to create functions for every Handler. Default Handler will take care of every Handler
-   // here with "weak" we can overright the priorities and define in main function itself insted of defining here
+ uint32_t vectors[] __attribute__((section (".isr_vector"))) = { 
+     
+
     STACK_START,   
     (uint32_t) Reset_Handler,
     (uint32_t) NMI_Handler,
@@ -215,26 +214,26 @@ void FPU_Handler(void) __attribute__ ((weak, alias("Default_Handler")));
  };
 
  void Default_Handler(void){
-     // This is Default Handler for all the interrupts
+     
      while(1);
  }
 
  void Reset_Handler(void){
-     // copy .data section from flash to SRAM
-     uint32_t size = (uint32_t)&_edata- (uint32_t)&_sdata; //This is the size of .data
-     uint8_t *pDst = (uint8_t*)&_sdata; //sram (*pDst --> pointer to Destination)
-     uint8_t *pSrc = (uint8_t*)&_la_data;//flash (*pSrc --> pointer to the Source)
+    
+     uint32_t size = (uint32_t)&_edata- (uint32_t)&_sdata; 
+     uint8_t *pDst = (uint8_t*)&_sdata; 
+     uint8_t *pSrc = (uint8_t*)&_la_data;
      for (uint32_t i = 0; i < size; i++)
      {
-         *pDst++ = *pSrc++; //copy the data to the SRAM from flash
+         *pDst++ = *pSrc++; 
      }
 
-     //Initilize the .bss section to zero in SRAM
+
      size = (uint32_t)&_ebss - (uint32_t)&_sbss;
      pDst = (uint8_t*)&_sbss;
      for (uint32_t i = 0; i < size; i++)
      {
-         *pDst++ = 0; // init. all data in .bss to 0
+         *pDst++ = 0; 
      }
      // main function
      main();
