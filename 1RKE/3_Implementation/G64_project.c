@@ -7,7 +7,7 @@ const int encrypted3 = 3;		  // encrypted3 become constant in program
 const int encrypted4 = 4;		  // encrypted4 become constant in program
 void _delay_ms(uint32_t time) 
 {								
-	for (uint32_t i = 0; i < (time * for_delay); i++)
+	for (uint32_t i = 0; i < (time * make_delay); i++)
 	{
 		
 	}
@@ -68,7 +68,7 @@ int button_press(void)
 	uint32_t *pGpioaDataReg = (uint32_t *)0x40020010; //(GPIOx_IDR) + 0x10(offset)
 	while (hfmilsec--)
 	{
-		if ((*pGpioaDataReg) & (1 << user_btn)) 
+		if ((*pGpioaDataReg) & (1 << user_button)) 
 		{										// check if the button is pressed or not
 			_delay_ms(250);
 			count++;
