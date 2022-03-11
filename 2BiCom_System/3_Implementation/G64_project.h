@@ -1,5 +1,5 @@
-#ifndef OWN_DRIVERS_AND_FUNC_H_
-#define OWN_DRIVERS_AND_FUNC_H_
+#ifndef G64_project_H_
+#define G64_project_H_
 
 
 #include <stdint.h>
