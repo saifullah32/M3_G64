@@ -6,34 +6,34 @@
 
 
  /**
-  * @brief For green led pin use LED_GREEN
+  * @brief Used for Green Led
   * 
   */
-#define LED_GREEN 12  // here we are defining green led pin as 12
+#define LED_GREEN 12  // green led pin as 12
 
 /**
- * @brief For orange led pin use LED_ORANGE
+ * @brief Used for Orange Led
  * 
  */
-#define LED_ORANGE 13 // here we are defining orange led pin as 13
+#define LED_ORANGE 13 // orange led pin as 13
 
 /**
- * @brief For red led pin use LED_RED
+ * @brief Used for Red Led
  * 
  */
-#define LED_RED 14    // here we are defining red led pin as 14
+#define LED_RED 14    // red led pin as 14
 
 /**
- * @brief For blue led pin use LED_BLUE
+ * @brief Used for Blue Led
  * 
  */
-#define LED_BLUE 15   // here we are defining blue led pin as 15
+#define LED_BLUE 15   // blue led pin as 15
 
 /**
- * @brief For user button pin use user_btn
+ * @brief Used For User Button
  * 
  */
-#define user_btn 0    // here we are defining user button pin as 0
+#define user_button 0    // user button pin as 0
 
 /**
  * @brief This Function Initilizes the LED's 
@@ -42,7 +42,7 @@
 void led_init_all(void);      // This will initialize all the LED's
 
 /**
- * @brief This function takes LED number as input and glows that led
+ * @brief This function takes LED number as input and on that led
  * 
  * @param led_no 
  */
@@ -60,7 +60,7 @@ void led_off(uint8_t led_no); // This is to off custom LED
  * 
  * @param time 
  */
-void my_delay_ms(uint32_t time); // This is to provide some delay
+void _delay_ms(uint32_t time); // provide delay
 
 /**
  * @brief This function Initilizes the Button
@@ -69,11 +69,11 @@ void my_delay_ms(uint32_t time); // This is to provide some delay
 void button_init(void);   // This will initialize the button
 
 /**
- * @brief This function Counts no of button presses in a certain anount of time
+ * @brief This function Counts no of button presses in a Given amount of time
  * 
  * @return int 
  */
-int btn_press(void);      // This will check no of button presses
+int button_press(void);      // This will check no of button presses
 
 /**
  * @brief This function Encrypts the data that is given as input and outputs encrypted data
