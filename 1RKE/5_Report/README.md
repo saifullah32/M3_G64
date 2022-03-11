@@ -21,3 +21,9 @@ One of the first introductions was in 1980 on the Ford Thunderbird, Mercury Coug
 
 
 ![5W and 1H](https://user-images.githubusercontent.com/87262722/157925192-9b056231-0340-4be1-a50c-c13a4daccc2f.jpg)
+
+## S.W.O.T ANALYSIS
+
+
+![Swot ](https://user-images.githubusercontent.com/87262722/157930903-35490026-63bb-4796-9aef-533f62e15c6a.jpg)
+
