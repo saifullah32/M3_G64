@@ -1,5 +1,5 @@
 
-#include "project.h"
+#include "G64_project.h"
 #include <stdio.h>
 
 static void lock(void);			   
@@ -84,7 +84,7 @@ int main(void)
 		}
 		else if (encryptedData == 3333)
 		{ 
-			alarm_actOrDact();
+			alarm_activateOrDeactivate();
 
 			button_count = 0;
 		}
