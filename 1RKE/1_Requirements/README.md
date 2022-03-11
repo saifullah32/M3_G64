@@ -1,7 +1,16 @@
-# RKE 
----
-## Description
+# RKE (Remote Keyless Entry)
+## Folder Structure
+|Folder|Description|
+|:-:|:--:|
+|1_Requirement|Documents detailing requirements and research|
+|2_Architecture|Documents specifying design details|
+|3_Implementation|All code and documentation|
+|4_TestPlanAndOutput|Documents with test plans|
+|5_Report|Attach Report with all the scope of work|
+|6_ImagesAndVideos|All images related to the project|
+|7_Application|All information about app|
 
+## Description
 * Remote keyless entry (RKE) system is designed to remotely lock or unlock access to automobiles.
 * RKE operates by broadcasting radio waves on a particular frequency unidirectionally,RKE systems implement encryption algorithms to prevent car thieves from intercepting and spoofing the telegrams.
 ---
