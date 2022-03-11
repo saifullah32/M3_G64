@@ -27,3 +27,13 @@ One of the first introductions was in 1980 on the Ford Thunderbird, Mercury Coug
 
 ![Swot ](https://user-images.githubusercontent.com/87262722/157930903-35490026-63bb-4796-9aef-533f62e15c6a.jpg)
 
+## Test Plan and Output
+---
+| ID | Description | Input | Output | Pass/Fail
+|:------:|:-------:|:------:|:------:|:------:|
+| 1 | Print Window Status | USER PRESS BUTTON ONCE | Should Print Window Status the of car | Pass
+| 2 | Print Alarm Status | USER PRESS BUTTON TWICE | Should Print Alarm Status of the car | Pass
+| 3 | Print Car Battery Info | USER PRESS BUTTON THREE TIMES | Should Print Car Battery Info | Pass
+| 4 | Print Door status | USER PRESS BUTTON FOUR TIMES | Should Print Door status of the car | Pass
+
+
