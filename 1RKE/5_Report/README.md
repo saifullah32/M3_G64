@@ -51,4 +51,10 @@ One of the first introductions was in 1980 on the Ford Thunderbird, Mercury Coug
 | 3 | Print Car Battery Info | USER PRESS BUTTON THREE TIMES | Should Print Car Battery Info | Pass
 | 4 | Print Door status | USER PRESS BUTTON FOUR TIMES | Should Print Door status of the car | Pass
 
+## APPLICATIONS
+
+* It gives vehicle owners a level of convenience by eliminating the need to physically insert a key.
+* When someone tries to unlock the vehicle without using the key buttons, the key alarms go off, alerting the user to the issue.
+* It's a component of smart home applications. 
+* For persons with mobility challenges or those who arrive at the front door with their hands full, a keyless entry system provides increased security and convenience.
 
