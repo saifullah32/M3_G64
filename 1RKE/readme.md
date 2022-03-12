@@ -12,6 +12,7 @@
 |5_Report|Attach Report with all the scope of work|
 |6_ImagesAndVideos|All images related to the project|
 |7_Application|All information about app|
+|8_Others|About referemce n all|
 ## Introduction
 Remote keyless Entry system is abbreviated as RKE. It's a proximity sensor that detects when a key is within a particular range.
 Modern automobiles have a lot of them. When you have an RKS system, it is quite easy to get into your automobile.
