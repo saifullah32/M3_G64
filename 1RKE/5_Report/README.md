@@ -57,4 +57,11 @@ One of the first introductions was in 1980 on the Ford Thunderbird, Mercury Coug
 * When someone tries to unlock the vehicle without using the key buttons, the key alarms go off, alerting the user to the issue.
 * It's a component of smart home applications. 
 * For persons with mobility challenges or those who arrive at the front door with their hands full, a keyless entry system provides increased security and convenience.
+## References
+|S.No.|Links|
+|:-:|:--:|
+|1|[Techtarget](https://whatis.techtarget.com/definition/Remote-keyless-entry-RKE)|
+|2|[Wikipedia](https://en.wikipedia.org/wiki/Remote_keyless_system#:~:text=Keyless%20remotes%20contain%20a%20short,locks%20or%20unlocks%20the%20door.)|
+|3|[Studytonight](https://www.studytonight.com/c/structures-in-c.php/)|
+|4|[Researchgate](https://www.researchgate.net/)|
 
