@@ -31,4 +31,4 @@
 |5_Report|Vaibhav, Prabal, Saifullah|
 |6_ImagesAndVideos|Prabal|
 |7_Application|Saifullah|
-|8_Others|Vaibhav ,Saifullah, Prabal|
+|8_Others|Vaibhav ,Saifullah, Prabal| 
