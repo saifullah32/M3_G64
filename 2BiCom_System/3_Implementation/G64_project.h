@@ -30,7 +30,7 @@
 #define LED_BLUE 15   // here we are defining blue led pin as 15
 
 /**
- * @brief For user button pin use user_btn
+ * @brief For user button pin use user_btn 
  * 
  */
 #define user_btn 0    // here we are defining user button pin as 0
