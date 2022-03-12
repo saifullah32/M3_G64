@@ -1,4 +1,7 @@
-
+# Code quality
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/37af767af6c943c0890580a026efe74e)](https://www.codacy.com/gh/saifullah32/M3_G64/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=saifullah32/M3_G64&amp;utm_campaign=Badge_Grade)
+[![Code Quality Score](https://api.codiga.io/project/31881/score/svg)
+[![Code Grade](https://api.codiga.io/project/31881/status/svg)
 |Folder|Description|
 |:-:|:--:|
 |1_Requirement|Documents detailing requirements and research|
