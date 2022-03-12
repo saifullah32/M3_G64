@@ -23,7 +23,7 @@
  */
 #define LED_RED 14    // here we are defining red led pin as 14 
 
-/**
+/** 
  * @brief For blue led pin use LED_BLUE
  *  
  */
