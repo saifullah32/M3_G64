@@ -1,5 +1,5 @@
-#ifndef PROJECT_H_
-#define PROJECT_H_
+#ifndef G64_PROJECT_H_
+#define G64_PROJECT_H_
 
 
 #include <stdint.h>
