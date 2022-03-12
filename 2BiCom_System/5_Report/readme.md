@@ -1,9 +1,11 @@
 #  About the BiCom System
-## Description
- * This Project is an __BiCom System__,and is designed to remotely know the statues of your automobiles, BiCom System operates by broadcasting radio waves on a particular frequency Bidirectionally.
-
+## Introdution
+A bi-com lock, also known as keyless entry or remote central locking, is one that employs an electronic remote control as a key that is triggered by a portable device or automatically by proximity. An RKS, which is widely used in vehicles, accomplishes the tasks of a traditional car key without requiring physical touch. Pressing a button on the remote while within a few yards of the automobile can lock or unlock the doors, as well as conduct other operations.
+## Reasearch
+RKE (Remote Keyless Entry) systems function by broadcasting radio waves on a certain frequency unidirectionally, and RKE systems use encryption techniques to prevent vehicle thieves from intercepting and spoofing the telegrams.
+The BiCom system is just a bidirectional RKE system that has been extended from a unidirectional RKE system.
+BiCom system works in both directions, sending and receiving data from the car in which it is installed, similar to RKE.
 ---
-
 ## Identifying features
  * It shall print __window status__ of the car when Button is pressed ONCE
  * It shall print __alarm status__ the car when Button is pressed TWICE
