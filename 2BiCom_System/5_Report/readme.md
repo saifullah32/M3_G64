@@ -40,6 +40,17 @@
 | -------- | -------------- | ---- | -------- | -------------- |
 | LLR3.1 |  If the User Button is pressed THREE times, ON All LED's in CLOCKWISE manner  |  | LLR4.1 | If the User Button is pressed FOUR times, ON All LED's in ANTI-CLOCKWISE manner |
 | LLR3.2 | i.e. GREEN➡ORANGE➡RED➡BLUE➡GREEN |  | LLR4.2 | i.e. GREEN➡BLUE➡RED➡ORANGE➡GREEN |
+# DESIGN
+## Behavioural diagram
+### High level FLOW CHART behavioural diagram:
+![HLFCBD](https://raw.githubusercontent.com/Vartik-Vats/Module3_Group-43/main/2_BiCom-System/5_ImagesAndVideos/hlflowchart.png)
+### Low level FLOW CHART behavioural diagram:
+![LLFCBD](https://raw.githubusercontent.com/Vartik-Vats/Module3_Group-43/main/2_BiCom-System/5_ImagesAndVideos/llflowchart.png)
+## Structural diagram
+### High level structural diagram
+![HLSD](https://raw.githubusercontent.com/Vartik-Vats/Module3_Group-43/main/2_BiCom-System/5_ImagesAndVideos/hlstructural.png)
+### Low level structural diagram
+![LLSD](https://raw.githubusercontent.com/Vartik-Vats/Module3_Group-43/main/2_BiCom-System/5_ImagesAndVideos/llstructural.png)
 ---
 # Test plan and output
 
@@ -54,8 +65,6 @@
 | 03 | Print Car Battery Info | USER BUTTON PRESS THREE TIMES | Shall Print Car Battery Info | Shall Print Car Battery Info |
 | 04 | Print Door status | Shall Print Door status of the car |  | Shall Print Door status of the car  |
 
-
-
 ## LOW LEVEL TEST PLAN
 
 | Test ID (for Print Window Status)| Description | Input | Expected output | Actual Output | passed/not |
@@ -65,6 +74,3 @@
 | 03 | Check for Print Car Battery Info | USER BUTTON PRESS THREE TIMES | Shall ON LED's ONCE clockwise  |  Shall ON LED's ONCE clockwise  | ✅ |
 | 04 | Check for Print Door status | USER BUTTON PRESS FOUR TIMES | Shall ON LED's once anti-clockwise  |  Shall ON LED's once anti-clockwise  | ✅ |
 | 05 | Check for btn_press() | counts no of button press  | 1/2/3/4 | 1/2/3/4 | ✅ |
-
-
-
