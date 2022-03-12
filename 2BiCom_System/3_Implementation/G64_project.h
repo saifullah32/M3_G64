@@ -28,7 +28,7 @@
  * 
  */
 #define LED_BLUE 15   // here we are defining blue led pin as 15
-
+ 
 /**
  * @brief For user button pin use user_btn 
  * 
