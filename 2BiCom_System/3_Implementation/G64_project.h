@@ -25,7 +25,7 @@
 
 /**
  * @brief For blue led pin use LED_BLUE
- * 
+ *  
  */
 #define LED_BLUE 15   // here we are defining blue led pin as 15
  
