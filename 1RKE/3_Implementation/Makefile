@@ -19,5 +19,5 @@ final.elf: main.o G64_project.o startup.o
 qemu:
 	qemu-system-gnuarmeclipse.exe -M STM32F4-Discovery -mcu STM32F407VG -kernel final.elf
 
-clean:
+clean: 
 	rm -rf *.o *.elf
