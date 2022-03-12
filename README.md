@@ -1,7 +1,7 @@
 # M3_GROUP64 
 ## AIM  
 -   To design a RKE system.
--   To design a Bi-com system.
+-   To design a Bi-com system. 
 ## WorkDone
 ### Group Members
 |PS No.|Name|
