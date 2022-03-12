@@ -13,7 +13,7 @@
 ### RKE(Remote Keyless Entry)
 |Folder|Done By| 
 |:-:|:--:|
-|1_Requirement|Saifullah, Vaibhav|
+|1_Requirement|Saifullah, Vaibhav| 
 |2_Architecture|Saifullah, Prabal|
 |3_Implementation|Vaibhav, Prabal, Saifullah|
 |4_TestPlanAndOutput|Vaibhav, Saifullah| 
