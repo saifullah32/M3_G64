@@ -40,3 +40,12 @@
 | -------- | -------------- | ---- | -------- | -------------- |
 | LLR3.1 |  If the User Button is pressed THREE times, ON All LED's in CLOCKWISE manner  |  | LLR4.1 | If the User Button is pressed FOUR times, ON All LED's in ANTI-CLOCKWISE manner |
 | LLR3.2 | i.e. GREEN➡ORANGE➡RED➡BLUE➡GREEN |  | LLR4.2 | i.e. GREEN➡BLUE➡RED➡ORANGE➡GREEN |
+## 5W's & 1H
+![5W1H Questions](https://user-images.githubusercontent.com/98877997/157949953-19fe5da6-d099-44d4-bcdf-ae8b24f4186e.jpg)
+## SWOT Analysis
+|Strength|Weakness|Opportunities|Threats|
+|:--:|:--:|:--:|:--:|
+|Data encryption is used for security|Limited user range|Scope in automobiles|more delay between functionalities|
+|overall handy functionality|battery replacement required |Car safety|can be manipulate|
+|No Human interaction required|water and dust can affect the system|user friendy system|Cannot Multitask in same time|
+|High Security|user have to wait for next functionality|cost effective|battery replacement required frequently|
